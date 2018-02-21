@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`class HelloWorldList extends _react.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = { greetings: ['Jim', 'Sally', 'Bender'] };
+        this.addGreetingToList = this.addGreetingToList.bind(this);
+        this.removeGreetingFromList = this.removeGreetingFromList.bind(this);
+    }
+
+    render() {
+        return (
+            _react2.default.createElement('div', { className: 'HelloWorldList', __source: { fileName: _jsxFileName, lineNumber: 18 }, __self: this },
+                _react2.default.createElement(_AddGreeter2.default, { addGreeting: this.addGreetingToList, __source: { fileName: _jsxFileName, lineNumber: 19 }, __self: this }),
+                this.renderGreetings()));
+
+
+
+    }
+
+    renderGreetings() {
+        return this.state.greetings.map(name =>
+        _react2.default.createElement(_HelloWorld2.default, { key: name, name: name, removeGreeting: this.removeGreetingFromList, __source: { fileName: _jsxFileName, lineNumber: 28 }, __self: this }));
+
+    }
+
+    addGreetingToList(newName) {
+        this.setState({ greetings: [...this.state.greetings, newName] });
+    }
+
+    removeGreetingFromList(removeName) {
+        const filteredGreetings = this.state.greetings.filter(name => {
+            return name != removeName;
+        });
+
+        this.setState({ greetings: filteredGreetings });
+    }} renders and matches snapshot 1`] = `
+<div
+  className="HelloWorldList"
+>
+  <div
+    className="AddGreeter"
+  >
+    <input
+      onChange={[Function]}
+      type="text"
+    />
+      
+    <button
+      onClick={[Function]}
+    >
+      add
+    </button>
+  </div>
+  <div
+    className="HelloWorld"
+  >
+    Hello
+     
+    Jim
+    !
+    <br />
+    <button
+      className="frenchify"
+      onClick={[Function]}
+    >
+      Frenchify!
+    </button>
+    <br />
+    <button
+      className="remove"
+      onClick={[Function]}
+    >
+      Remove me!
+    </button>
+  </div>
+  <div
+    className="HelloWorld"
+  >
+    Hello
+     
+    Sally
+    !
+    <br />
+    <button
+      className="frenchify"
+      onClick={[Function]}
+    >
+      Frenchify!
+    </button>
+    <br />
+    <button
+      className="remove"
+      onClick={[Function]}
+    >
+      Remove me!
+    </button>
+  </div>
+  <div
+    className="HelloWorld"
+  >
+    Hello
+     
+    Bender
+    !
+    <br />
+    <button
+      className="frenchify"
+      onClick={[Function]}
+    >
+      Frenchify!
+    </button>
+    <br />
+    <button
+      className="remove"
+      onClick={[Function]}
+    >
+      Remove me!
+    </button>
+  </div>
+</div>
+`;

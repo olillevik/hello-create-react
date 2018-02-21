@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`() => {
+    return (
+        _react2.default.createElement('div', { className: 'App', __source: { fileName: _jsxFileName, lineNumber: 8 }, __self: undefined },
+            _react2.default.createElement(_HelloWorldList2.default, { __source: { fileName: _jsxFileName, lineNumber: 9 }, __self: undefined })));
+
+} renders and matches our snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="HelloWorldList"
+  >
+    <div
+      className="AddGreeter"
+    >
+      <input
+        onChange={[Function]}
+        type="text"
+      />
+        
+      <button
+        onClick={[Function]}
+      >
+        add
+      </button>
+    </div>
+    <div
+      className="HelloWorld"
+    >
+      Hello
+       
+      Jim
+      !
+      <br />
+      <button
+        className="frenchify"
+        onClick={[Function]}
+      >
+        Frenchify!
+      </button>
+      <br />
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        Remove me!
+      </button>
+    </div>
+    <div
+      className="HelloWorld"
+    >
+      Hello
+       
+      Sally
+      !
+      <br />
+      <button
+        className="frenchify"
+        onClick={[Function]}
+      >
+        Frenchify!
+      </button>
+      <br />
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        Remove me!
+      </button>
+    </div>
+    <div
+      className="HelloWorld"
+    >
+      Hello
+       
+      Bender
+      !
+      <br />
+      <button
+        className="frenchify"
+        onClick={[Function]}
+      >
+        Frenchify!
+      </button>
+      <br />
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        Remove me!
+      </button>
+    </div>
+  </div>
+</div>
+`;
